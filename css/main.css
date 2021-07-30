@@ -867,560 +867,87 @@ html {
         grid-gap: 20px;
         position: relative;
     }
-    @media (min-width: 200px) {
-        .team .container .elements .team-member img {
-            display: block;
-            z-index: 1;
-            width: 100%;
-            text-align: center;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .team .container .elements .team-member .block:first-child span {
-            top: 481px;
-            background: var(--main-color);
-            padding: 8px 218px;
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-            right: 0px;
-        }
-        .team .container .elements .team-member .block:nth-child(2) span {
-            top: 1172px;
-            background: var(--main-color);
-            padding: 8px 218px;
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-            left: 0px;
-        }
-        .team .container .elements .team-member .block:nth-child(3) span {
-            top: 1863px;
-            background: var(--main-color);
-            padding: 8px 218px;
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-            right: 0px;
-        }
-        .team .container .elements .team-member .block:nth-child(4) span {
-            top: 2552px;
-            background: var(--main-color);
-            padding: 8px 218px;
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-            left: 0px;
-        }
+    .block-1 .image,
+    .block-2 .image,
+    .block-3 .image,
+    .block-4 .image {
+        position: relative;
     }
-    @media (min-width: 566px) {
-        .team .container .elements .team-member img {
-            display: block;
-            z-index: 1;
-            width: 100%;
-            text-align: center;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .team .container .elements .team-member .block:first-child span {
-            top: 282px;
-            background: var(--main-color);
-            padding: 8px 119px;
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-            right: 0px;
-        }
-        .team .container .elements .team-member .block:nth-child(2) span {
-            top: 282px;
-            background: var(--main-color);
-            padding: 8px 119px;
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-            left: 0px;
-        }
-        .team .container .elements .team-member .block:nth-child(3) span {
-            top: 799px;
-            background: var(--main-color);
-            padding: 8px 119px;
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-            right: 0px;
-        }
-        .team .container .elements .team-member .block:nth-child(4) span {
-            top: 799px;
-            background: var(--main-color);
-            padding: 8px 119px;
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-            left: 0px;
-        }
+    .team .container .elements .team-member img {
+        display: block;
+        z-index: 1;
+        width: 100%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
-    @media (min-width: 566px) {
-        .team .container .elements .team-member img {
-            display: block;
-            z-index: 1;
-            width: 100%;
-            text-align: center;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .team .container .elements .team-member .block:first-child span {
-            top: 282px;
-            background: var(--main-color);
-            padding: 8px 119px;
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-            right: 0px;
-        }
-        .team .container .elements .team-member .block:nth-child(2) span {
-            top: 282px;
-            background: var(--main-color);
-            padding: 8px 119px;
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-            left: 0px;
-        }
-        .team .container .elements .team-member .block:nth-child(3) span {
-            top: 799px;
-            background: var(--main-color);
-            padding: 8px 119px;
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-            right: 0px;
-        }
-        .team .container .elements .team-member .block:nth-child(4) span {
-            top: 799px;
-            background: var(--main-color);
-            padding: 8px 119px;
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-            left: 0px;
-        }
+    .team .container .elements .team-member .block-1 span {
+        bottom: 0;
+        right: 0;
+        background: var(--main-color);
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        color: var(--black-color);
+        position: absolute;
+        z-index: 2;
+        opacity: 0.7;
+        font-size: 12pt;
+        letter-spacing: 1px;
     }
-    @media (min-width: 699px) {
-        .team .container .elements .team-member img {
-            display: block;
-            z-index: 1;
-            width: 100%;
-            text-align: center;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .team .container .elements .team-member .block:first-child span {
-            top: 266px;
-            background: var(--main-color);
-            padding: 8px 104px;
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-            right: 0px;
-        }
-        .team .container .elements .team-member .block:nth-child(2) span {
-            top: 266px;
-            background: var(--main-color);
-            padding: 8px 104px;
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-            left: 0px;
-        }
-        .team .container .elements .team-member .block:nth-child(3) span {
-            top: 839px;
-            background: var(--main-color);
-            padding: 8px 129px;
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-            right: 0px;
-        }
-        .team .container .elements .team-member .block:nth-child(4) span {
-            top: 839px;
-            background: var(--main-color);
-            padding: 8px 129px;
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-            left: 0px;
-        }
+    .team .container .elements .team-member .block-2 span {
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        background: var(--main-color);
+        padding: 10px;
+        color: var(--black-color);
+        position: absolute;
+        z-index: 2;
+        opacity: 0.7;
+        font-size: 12pt;
+        letter-spacing: 1px;
     }
-    @media (min-width: 741px) {
-        .team .container .elements .team-member img {
-            display: block;
-            z-index: 1;
-            width: 100%;
-            text-align: center;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .team .container .elements .team-member .block:first-child span {
-            top: 304px;
-            background: var(--main-color);
-            padding: 8px 130px;
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-            right: 0px;
-        }
-        .team .container .elements .team-member .block:nth-child(2) span {
-            top: 304px;
-            background: var(--main-color);
-            padding: 8px 130px;
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-            left: 0px;
-        }
-        .team .container .elements .team-member .block:nth-child(3) span {
-            top: 843px;
-            background: var(--main-color);
-            padding: 8px 130px;
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-            right: 0px;
-        }
-        .team .container .elements .team-member .block:nth-child(4) span {
-            top: 843px;
-            background: var(--main-color);
-            padding: 8px 130px;
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-            left: 0px;
-        }
+    .team .container .elements .team-member .block-3 span {
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        background: var(--main-color);
+        padding: 10px;
+        color: var(--black-color);
+        position: absolute;
+        z-index: 2;
+        opacity: 0.7;
+        font-size: 12pt;
+        letter-spacing: 1px;
     }
-    @media (min-width: 753px) {
-        .team .container .elements .team-member img {
-            display: block;
-            z-index: 1;
-            width: 100%;
-            text-align: center;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .team .container .elements .team-member .block:first-child span {
-            top: 314px;
-            background: var(--main-color);
-            padding: 8px 135px;
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-            right: 0px;
-        }
-        .team .container .elements .team-member .block:nth-child(2) span {
-            top: 314px;
-            background: var(--main-color);
-            padding: 8px 135px;
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-            left: 0px;
-        }
-        .team .container .elements .team-member .block:nth-child(3) span {
-            top: 864px;
-            background: var(--main-color);
-            padding: 8px 135px;
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-            right: 0px;
-        }
-        .team .container .elements .team-member .block:nth-child(4) span {
-            top: 864px;
-            background: var(--main-color);
-            padding: 8px 135px;
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-            left: 0px;
-        }
+    .team .container .elements .team-member .block-4 span {
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        background: var(--main-color);
+        padding: 10px;
+        text-align: center;
+        color: var(--black-color);
+        position: absolute;
+        z-index: 2;
+        opacity: 0.7;
+        font-size: 12pt;
+        letter-spacing: 1px;
     }
-    @media (min-width: 765px) {
-        .team .container .elements .team-member img {
-            display: block;
-            z-index: 1;
-            width: 100%;
-            text-align: center;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .team .container .elements .team-member .block:first-child span {
-            display: block;
-            top: 316px;
-            background: var(--main-color);
-            padding: 8px 136px;
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-            right: 0px;
-        }
-        .team .container .elements .team-member .block:nth-child(2) span {
-            display: block;
-            top: 316px;
-            background: var(--main-color);
-            padding: 8px 136px;
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-            left: 0px;
-        }
-        .team .container .elements .team-member .block:nth-child(3) span {
-            display: block;
-            top: 866px;
-            background: var(--main-color);
-            padding: 8px 136px;
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-            right: 0px;
-        }
-        .team .container .elements .team-member .block:nth-child(4) span {
-            display: block;
-            top: 866px;
-            background: var(--main-color);
-            padding: 8px 136px;
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-            left: 0px;
-        }
-    }
-    @media (min-width: 992px) {
-        .team .container .elements .team-member img {
-            display: block;
-            z-index: 1;
-            width: 100%;
-            text-align: center;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .team .container .elements .team-member .block:first-child span {
-            top: 326px;
-            background: var(--main-color);
-            padding: 13px 146px;
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-            right: 0px;
-        }
-        .team .container .elements .team-member .block:nth-child(2) span {
-            top: 326px;
-            background: var(--main-color);
-            padding: 13px 146px;
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-            left: 0px;
-        }
-        .team .container .elements .team-member .block:nth-child(3) span {
-            top: 896px;
-            background: var(--main-color);
-            padding: 13px 146px;
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-            right: 0px;
-        }
-        .team .container .elements .team-member .block:nth-child(4) span {
-            top: 896px;
-            background: var(--main-color);
-            padding: 13px 146px;
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-            left: px;
-        }
-    }
-    @media (min-width: 1200px) {
-        .team .container .elements .team-member img {
-            display: block;
-            z-index: 1;
-            width: 100%;
-        }
-        .team .container .elements .team-member .block:first-child span {
-            right: 290px;
-            top: 226px;
-            background: var(--main-color);
-            padding: 13px 96px;
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-            background: var(--main-color);
-            color: var(--black-color);
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-        }
-        .team .container .elements .team-member .block:nth-child(2) span {
-            left: 290px;
-            top: 226px;
-            background: var(--main-color);
-            padding: 13px 96px;
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-            background: var(--main-color);
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-        }
-        .team .container .elements .team-member .block:nth-child(3) span {
-            right: 0px;
-            top: 226px;
-            background: var(--main-color);
-            padding: 13px 96px;
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-            background: var(--main-color);
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-        }
-        .team .container .elements .team-member .block:nth-child(4) span {
-            left: 0px;
-            top: 226px;
-            background: var(--main-color);
-            padding: 13px 96px;
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-            background: var(--main-color);
-            color: var(--black-color);
-            position: absolute;
-            z-index: 2;
-            opacity: 0.7;
-            font-size: 12pt;
-            letter-spacing: 1px;
-        }
-    }
-    .team .container .elements .team-member .block {
+    
+    .team .container .elements .team-member .block-1,
+    .team .container .elements .team-member .block-2,
+    .team .container .elements .team-member .block-3,
+    .team .container .elements .team-member .block-4 {
         margin-bottom: 40px;
     }
-    .team .container .elements .team-member .block p {
+    .team .container .elements .team-member .block-1 p,
+    .team .container .elements .team-member .block-2 p,
+    .team .container .elements .team-member .block-3 p,
+    .team .container .elements .team-member .block-4 p{
         font-size: 12pt;
         color: var(--secondary-color);
         line-height: var(--line-height);
