@@ -524,7 +524,7 @@ body {
 .products .product .inside {
     position: absolute;
     left: 50%;
-    top: -50%;
+    top: -100%;
     background-color: #ddd;
     text-align: center;
     padding: 20px;
