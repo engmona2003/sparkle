@@ -527,7 +527,7 @@ body {
     position: absolute;
     left: 50%;
     top: -50%;
-    background-color: #ddd;
+    background-color: #f4f4f4;
     text-align: center;
     padding: 20px;
     transform: translate(-50%, -200%);
