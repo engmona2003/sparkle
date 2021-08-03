@@ -518,13 +518,13 @@ body {
 }
 
 .products .product:hover .inside {
-    transform: translate(-50%, -50%);
+    top: 100%;
 }
 
 .products .product .inside {
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: -50%;
     background-color: #ddd;
     text-align: center;
     padding: 20px;
