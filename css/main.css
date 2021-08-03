@@ -520,16 +520,19 @@ body {
 .products .product:hover .inside {
     top: 100%;
 }
-
+.products .product:hover img {
+    opacity: 0.2;
+}
 .products .product .inside {
     position: absolute;
     left: 50%;
-    top: -100%;
+    top: -50%;
     background-color: #ddd;
     text-align: center;
     padding: 20px;
     transform: translate(-50%, -200%);
     transition: 0.3s;
+    opacity: 1;
 }
 @media (min-width: 300px) {
     .products {
