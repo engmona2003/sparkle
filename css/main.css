@@ -20,7 +20,7 @@
     letter-spacing: 4px;
 }
 
-@media (min-width: 300px) {
+@media (min-width: 500px) {
     .special-paragraph {
         color: #707070;
         line-height: var(--line-height);
@@ -287,7 +287,7 @@ html {
     color: var(--main-color);
 }
 
-@media (min-width: 300px) {
+@media (min-width: 575px) {
     .landing .text p {
         font-size: 15pt;
         color: var(--secondary-color);
@@ -395,23 +395,9 @@ html {
     grid-gap: 20px;
 }
 
-@media (min-width: 300px) {
-    .statitics .container .contents .block {
-        width: 270px;
-        background-color: #ffffff;
-        padding: 10px;
-    }
-    .statitics .container .contents .block:first-child {
-        margin-top: 20px;
-    }
-    .statitics .container .contents .block:nth-child(4) {
-        margin-bottom: 20px;
-    }
-}
-
 @media (min-width: 566px) {
     .statitics .container .contents .block {
-        width: 270px;
+        width: 245px;
         background-color: #ffffff;
         padding: 10px;
     }
@@ -518,7 +504,7 @@ html {
   .products .box:hover img  {
     opacity: 0.4;
   }
-@media (min-width: 300px) {
+@media (min-width: 575px) {
     .products {
         width: 256px;
         margin: auto auto;
@@ -726,7 +712,7 @@ html {
     .team .container .custom-content .block {
         z-index: 2;
     }
-    @media (min-width: 300px) {
+    @media (min-width: 575px) {
         .block .text p {
             font-size: 12pt;
             color: var(--secondary-color);
@@ -773,7 +759,7 @@ html {
     .block .imag img {
         width: 100%;
     }
-    @media (min-width: 300px) {
+    @media (min-width: 575px) {
         .block .text .sign {
             font-size: 12pt;
             color: black;
@@ -806,7 +792,7 @@ html {
     .team .container .custom-content {
         margin-bottom: 30px;
     }
-    @media (min-width: 300px) {
+    @media (min-width: 575px) {
         .team .yeloo span {
             position: absolute;
             width: 100%;
@@ -833,7 +819,7 @@ html {
         padding-top: 40px;
         color: #fff;
     }
-    @media (min-width: 300px) {
+    @media (min-width: 575px) {
         .footer .block {
             text-align: center;
         }
@@ -887,7 +873,7 @@ html {
     .footer .block .logo {
         padding-left: 10px;
     }
-    @media (min-width: 300px) {
+    @media (min-width: 575px) {
         .footer .block .copy {
             font-size: 12pt;
             display: flex;
@@ -922,7 +908,7 @@ html {
         padding: 10px 0;
         font-weight: 300;
     }
-    @media (min-width: 300px) {
+    @media (min-width: 575px) {
         .footer .block .text p {
             font-size: 12pt;
             font-weight: 300;
@@ -957,7 +943,7 @@ html {
             margin-bottom: 48px;
         }
     }
-    @media (min-width: 300px) {
+    @media (min-width: 575px) {
         .footer .block .text span a {
             text-decoration: none;
             padding: 11px 22px;
@@ -977,7 +963,7 @@ html {
     .facebook {
         background: #fff;
     }
-    @media (min-width: 300px) {
+    @media (min-width: 575px) {
         .social-media [class*="fa fa-"] {
             background-color: #fff;
             border-radius: 30px;
@@ -1009,7 +995,7 @@ html {
             text-decoration: none;
         }
     }
-    @media (min-width: 300px) {
+    @media (min-width: 575px) {
         .social-media {
             margin-top: 20px;
         }
