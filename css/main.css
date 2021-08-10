@@ -20,7 +20,7 @@
     letter-spacing: 4px;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 575px) {
     .special-paragraph {
         color: #707070;
         line-height: var(--line-height);
@@ -395,7 +395,7 @@ html {
     grid-gap: 20px;
 }
 
-@media (min-width: 566px) {
+@media (min-width: 575px) {
     .statitics .container .contents .block {
         width: 245px;
         background-color: #ffffff;
